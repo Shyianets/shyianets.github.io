@@ -92,7 +92,7 @@ p {
     position: fixed;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 17px 60px;
+    padding: 17px 2%;
     box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.6);
     z-index: 1000;
     color: #fff;
@@ -173,6 +173,12 @@ p {
     border: #69eac4;
 }
 
+@media only screen and (max-width: 767px) {
+    .contact-info{
+    display: none;
+    }
+}
+
 #toTop {
     display: none;
     position: fixed;
@@ -219,7 +225,7 @@ p {
 }
 
 .first {
-    background: #000 url(../images/background-1.jpg) no-repeat;
+    background: #000 url(../img/background-1.jpg) no-repeat;
     background-size: cover;
     padding: 180px 0;
     text-align: center;
@@ -253,7 +259,7 @@ p {
  
 
 .handmade {
-    background: #000 url(../images/background-2.jpg) no-repeat;
+    background: #000 url(../img/background-2.jpg) no-repeat;
     background-size: auto;
     text-align: center;
     color: #fff;
@@ -289,7 +295,7 @@ p {
 }
 
 .formats {
-    background: #fff url(../images/background-3.jpg) no-repeat;
+    background: #fff url(../img/background-3.jpg) no-repeat;
     background-size: auto;
     background-position-y: 60px; 
     height: 770px;
@@ -368,7 +374,7 @@ p {
 }
 
 .footer {
-    background: #262626 url(../images/background-footer-6x6.png);
+    background: #262626 url(../img/background-footer-6x6.png);
     padding: 50px 0;
 }
 
