@@ -88,11 +88,12 @@ p {
 }
 
 .navbar {
+    display: block;
     width: 100%;
     position: fixed;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 17px 2%;
+    padding: 10px 2%;
     box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.6);
     z-index: 1000;
     color: #fff;
@@ -182,7 +183,7 @@ p {
 #toTop {
     display: none;
     position: fixed;
-    right: 0;
+    left: 0;
     bottom: 50px;
     z-index: 999;
 }
@@ -249,10 +250,12 @@ p {
     -webkit-transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
     transition: .75s cubic-bezier(0.23, 1, 0.32, 1);
     cursor: pointer;
+    box-shadow: 0 10px 40px 3px rgba(0, 0, 0, 0.6);
+    z-index: 1000;
 }
 
 .examples img {
-    transition: transform .75s ease;
+    transition: transform .5s ease;
     opacity: .8;
 }
 
@@ -380,6 +383,14 @@ p {
 
 .footer img {
     margin: 0 auto;
+}
+
+.soc-nets img {
+    opacity: .7;
+}
+
+.soc-nets img:hover {
+    opacity: 1;
 }
 
 .footer p,
