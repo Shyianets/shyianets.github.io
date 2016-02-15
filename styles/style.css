@@ -259,7 +259,11 @@ p {
     opacity: .8;
 }
 
- 
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} 
 
 .handmade {
     background: #000 url(../img/background-2.jpg) no-repeat;
