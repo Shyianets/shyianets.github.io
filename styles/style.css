@@ -219,6 +219,13 @@ p {
     background: rgba(0, 0, 0, 0.5);
 }
 
+.toTop-svg {
+    height: 70px;
+    width: 70px;
+    margin: 10px 15%;
+    cursor: pointer;
+}
+
 .first {
     background: #000 url(../img/background-1.jpg) no-repeat;
     background-size: cover;
