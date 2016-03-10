@@ -12,6 +12,8 @@
 	<!-- <link rel="stylesheet" href="styles/bootstrap.css" type="text/css">
 	-->
 	<link rel="stylesheet" href="styles/carousel.css" type="text/css">
+	<link rel="stylesheet" href="styles/transitions.css" type="text/css">
+	<link rel="stylesheet" href="styles/theme.css" type="text/css">
 	<link rel="stylesheet" href="styles/form.css" type="text/css">
 	<title>Pop Art на заказ</title>
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,7 +41,7 @@
 	<!-- End navbar block -->
 
 	<!-- Start first block -->
-	<header class="first">
+	<header>
 		<div class="container">
 			<h1>Pop art</h1>
 			<h2>Портреты по фото</h2>
@@ -140,51 +142,91 @@
 	<!-- Start feedback block -->
 	<section class="feedback container">
 		<h3>Отзывы</h3>
-		<article class="col-sm-12 col-md-6 col-lg-3">
-			<img src="img/face-1.png" height="166" width="166" alt="#" class="face-left">
-			<div>
-				<p class="name">Катя Ворушило</p>
-				<p class="city">Киев</p>
-				<p class="socio">vk.com/id21469425</p>
+		<div id="demo" class="carousel theme">
+			<article class="item">
+				<img src="img/face-1.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<div>
+					<p class="name">Катя Ворушило</p>
+					<a href="#" class="socio">vk.com/id21469425</a><br>
+					<a href="#" class="view">Посмотреть портрет</a>
+				</div>
+				<p class="feedback-cont">
+					Спасибо за вашу работу. Портрет получился таким, как я его и представляла. Очень порадовали, всё было сделано быстро и качественно.
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-2.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<p class="name">Дима загорудько</p>
+				<a href="#" class="socio">vk.com/zagorudko</a><br>
 				<a href="#" class="view">Посмотреть портрет</a>
-			</div>
-			<p class="feedback-cont">
-				Спасибо за вашу работу. Портрет получился таким, как я его и представляла. Очень порадовали, всё было сделано быстро и качественно.
-			</p>
-		</article>
-		<article class="col-sm-12 col-md-6 col-lg-3">
-			<img src="img/face-2.png" height="166" width="166" alt="#" class="face-right">
-			<p class="name">Дима загорудько</p>
-			<p class="city">Киев</p>
-			<p class="socio">vk.com/zagorudko</p>
-			<a href="#" class="view">Посмотреть портрет</a>
-			<p class="feedback-cont">
-				Спасибо за то,что смогли воплотить эту идею в жизнь. картина из фото получилась супер! Мне давно очень нравились подобные картины - решила сделать парню подарок. Очень оперативно был выполнен заказ и придраться не к чему! :)
-			</p>
-		</article>
-		<article class="col-sm-12 col-md-6 col-lg-3">
-			<img src="img/face-1.png" height="166" width="166" alt="#" class="face-left">
-			<div>
-				<p class="name">Катя Ворушило</p>
-				<p class="city">Киев</p>
-				<p class="socio">vk.com/id21469425</p>
-				<a href="#" class="view">Посмотреть портрет</a>
-			</div>
-			<p class="feedback-cont">
-				Спасибо за вашу работу. Портрет получился таким, как я его и представляла. Очень порадовали, всё было сделано быстро и качественно.
-			</p>
-		</article>
-		<article class="col-sm-12 col-md-6 col-lg-3">
-			<img src="img/face-2.png" height="166" width="166" alt="#" class="face-right">
-			<p class="name">Дима загорудько</p>
-			<p class="city">Киев</p>
-			<p class="socio">vk.com/zagorudko</p>
-			<a href="#" class="view">Посмотреть портрет</a>
-			<p class="feedback-cont">
-				Спасибо за то,что смогли воплотить эту идею в жизнь. картина из фото получилась супер! Мне давно очень нравились подобные картины - решила сделать парню подарок. Очень оперативно был выполнен заказ и придраться не к чему! :)
-			</p>
-		</article>
+				<p class="feedback-cont">
+					Спасибо за то,что смогли воплотить эту идею в жизнь. картина из фото получилась супер! Мне давно очень нравились подобные картины - решила сделать парню подарок. Очень оперативно был выполнен заказ и придраться не к чему! :)
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-1.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<div>
+					<p class="name">Катя Ворушило</p>
 
+					<a href="#" class="socio">vk.com/id21469425</a><br>
+					<a href="#" class="view">Посмотреть портрет</a>
+				</div>
+				<p class="feedback-cont">
+					Спасибо за вашу работу. Портрет получился таким, как я его и представляла. Очень порадовали, всё было сделано быстро и качественно.
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-2.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<p class="name">Дима загорудько</p>
+				<a href="#" class="socio">vk.com/zagorudko</a><br>
+				<a href="#" class="view">Посмотреть портрет</a>
+				<p class="feedback-cont">
+					Спасибо за то,что смогли воплотить эту идею в жизнь. картина из фото получилась супер! Мне давно очень нравились подобные картины - решила сделать парню подарок. Очень оперативно был выполнен заказ и придраться не к чему! :)
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-1.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<div>
+					<p class="name">Катя Ворушило</p>
+
+					<a href="#" class="socio">vk.com/id21469425</a><br>
+					<a href="#" class="view">Посмотреть портрет</a>
+				</div>
+				<p class="feedback-cont">
+					Спасибо за вашу работу. Портрет получился таким, как я его и представляла. Очень порадовали, всё было сделано быстро и качественно.
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-2.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<p class="name">Дима загорудько</p>
+				<a href="#" class="socio">vk.com/zagorudko</a><br>
+				<a href="#" class="view">Посмотреть портрет</a>
+				<p class="feedback-cont">
+					Спасибо за то,что смогли воплотить эту идею в жизнь. картина из фото получилась супер! Мне давно очень нравились подобные картины - решила сделать парню подарок. Очень оперативно был выполнен заказ и придраться не к чему! :)
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-1.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<div>
+					<p class="name">Катя Ворушило</p>
+
+					<a href="#" class="socio">vk.com/id21469425</a><br>
+					<a href="#" class="view">Посмотреть портрет</a>
+				</div>
+				<p class="feedback-cont">
+					Спасибо за вашу работу. Портрет получился таким, как я его и представляла. Очень порадовали, всё было сделано быстро и качественно.
+				</p>
+			</article>
+			<article class="item">
+				<img src="img/face-2.png" height="166" width="166" alt="#" class="avatar img-responsive">
+				<p class="name">Дима загорудько</p>
+				<a href="#" class="socio">vk.com/zagorudko</a><br>
+				<a href="#" class="view">Посмотреть портрет</a>
+				<p class="feedback-cont">
+					Спасибо за то,что смогли воплотить эту идею в жизнь. картина из фото получилась супер! Мне давно очень нравились подобные картины - решила сделать парню подарок. Очень оперативно был выполнен заказ и придраться не к чему! :)
+				</p>
+			</article>
+		</div>
 	</section>
 
 	<!-- End feedback block -->
@@ -350,50 +392,32 @@
 	<script src="js/modal.js"></script>
 	<script src="js/carousel.js"></script>
 	<script src="js/form.js"></script>
+	<script src="js/hideNavbar.js"></script>
+	<script src="js/scrollTop.js"></script>
 
-	<!-- start hide navbar script -->
 	<script>
-(function() {
-                
-                var documentElem = $(document),
-                    nav = $('nav'),
-                    lastScrollTop = 0;
-                
-                documentElem.on('scroll', function() {
-                    var currentScrollTop = $(this).scrollTop();
-                    
-                    //scroll down
-                    if ( currentScrollTop > lastScrollTop ) nav.addClass('nav-hidden');
-                    //scroll up
-                    else nav.removeClass('nav-hidden');
-                    
-                    lastScrollTop = currentScrollTop;
-                });
-                
-                
-                
-            })();
-		</script>
-	<!-- end hide navbar script -->
-
-	<!-- start scrollTop script -->
-	<script>
-$(document).ready(function(){   
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 500) {
-            $('#toTop').fadeIn();
-        } else {
-            $('#toTop').fadeOut();
-        }
-    });
-    $('#toTop').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 1000);
-        return false;
-    });
+	$(document).ready(function() {
+ 
+  var owl = $("#demo");
+ 
+  owl.owlCarousel({
+     
+      itemsCustom : [
+        [0, 1],
+        [450, 2],
+        [600, 3],
+        [700, 3],
+        [1000, 3],
+        [1200, 4],
+        [1400, 5],
+        [1600, 6]
+      ],
+      navigation : true
+ 
+  });
+ 
 });
-</script>
+	</script>
 
 </body>
 </html>

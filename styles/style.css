@@ -97,7 +97,9 @@ nav {
     box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.6);
     z-index: 1000;
     color: #fff;
-    transition: top 0.2s ease-in-out;
+    transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
 }
 
 .nav-hidden {
@@ -197,7 +199,7 @@ nav img {
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.1);
     border: #585858 solid 1px;
-     -ms-touch-action: manipulation;
+    -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
     -webkit-user-select: none;
@@ -206,7 +208,7 @@ nav img {
     -webkit-transition: background-color .40s ease;
     -moz-transition: background-color .40s ease;
     -o-transition: background-color .40s ease;
-    1transition: background-color .40s ease;
+    transition: background-color .40s ease;
 }
 
 .toTop-btn:hover {
@@ -217,7 +219,7 @@ nav img {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.first {
+header {
     background: #000 url(../img/background-1.jpg) no-repeat;
     background-size: cover;
     padding: 180px 0;
@@ -325,34 +327,17 @@ nav img {
 
 .feedback p {
     text-align: left;
-    margin-top: 0;
-    font-size: 15px;
     line-height: 17px;
 }
 
-.face-left {
-    float: left;
-    position: inherit;
-    top: -10px;
-    left: -10px;
-}
-
-.face-right {
-    float: right;
-    position: inherit;
-    top: -10px;
-    right: -10px;
+.avatar {
+    margin: 0 auto;
 }
 
 .name {
     font-size: 21px;
     margin-bottom: 10px;
 
-}
-
-.city {
-    font-size: 16px;
-    margin-bottom: 20px;
 }
 
 .socio {
@@ -371,7 +356,8 @@ nav img {
 
 .feedback-cont {
     font-weight: 500;
-    margin: 40px 0 !important;
+    margin: 20px 0 !important;
+    font-size: 1rem;
 }
 
 .footer {
